@@ -1,3 +1,4 @@
+PRAGMA foreign_key = 1;
 INSERT INTO Ingredients(ItemNumber,SupplierId, Name, Price)
 Values
     ('A1001', 2, 'Jäst', 70.00),

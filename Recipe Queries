@@ -1,6 +1,6 @@
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes
@@ -11,7 +11,7 @@ WHERE Recipes.Id = 1;
 
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes
@@ -22,7 +22,7 @@ WHERE Recipes.Id = 2;
 
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes
@@ -33,7 +33,7 @@ WHERE Recipes.Id = 3;
 
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes
@@ -44,7 +44,7 @@ WHERE Recipes.Id = 4;
 
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes
@@ -55,7 +55,7 @@ WHERE Recipes.Id = 5;
 
 SELECT
   Recipes.Id AS RecipeId,
-  Products.Name AS Name,
+  Products.Name AS Product,
   Ingredients.Name AS Ingredients,
   Quantity AS kg
 FROM RecipeIngredients INNER JOIN Recipes

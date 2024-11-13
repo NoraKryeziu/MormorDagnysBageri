@@ -1,3 +1,4 @@
+PRAGMA foreign_key = 1;
 INSERT INTO Suppliers(Name, AddressId, PostalAddressId, ContactPerson, Email, Phone)
 VALUES 
 (
